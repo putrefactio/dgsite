@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Draugr</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+        
+        .logo {
+            max-width: 300px;
+            height: auto;
+        }
+        
+        .email-link {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            transition: opacity 0.3s;
+        }
+        
+        .email-link:hover {
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="logo.png" alt="Draugr Logo" class="logo">
+        <a href="mailto:info@draugr.nl" class="email-link">info@draugr.nl</a>
+    </div>
+</body>
+</html>
